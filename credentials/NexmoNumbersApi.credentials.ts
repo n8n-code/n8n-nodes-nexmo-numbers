@@ -8,7 +8,7 @@ import type {
 export class NexmoNumbersApi implements ICredentialType {
 	name = 'N8nDevNexmoNumbersApi';
 
-	displayName = 'nexmo-numbers API';
+	displayName = 'Nexmo Numbers API';
 
 	icon: Icon = { light: 'file:../nodes/NexmoNumbers/nexmo-numbers.svg', dark: 'file:../nodes/NexmoNumbers/nexmo-numbers.dark.svg' };
 
@@ -22,7 +22,7 @@ export class NexmoNumbersApi implements ICredentialType {
 			default: 'https://rest.nexmo.com',
 			required: true,
 			placeholder: 'https://rest.nexmo.com',
-			description: 'The base URL of your nexmo-numbers API server',
+			description: 'The base URL of your Nexmo Numbers API server',
 		},
 		{
 			displayName: 'API Key',

@@ -97,7 +97,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Application Id",
+			"displayName": "Application ID",
 			"name": "application_id",
 			"description": "The Application that you want to return the numbers for.",
 			"default": "aaaaaaaa-bbbb-cccc-dddd-0123456789ab",
@@ -149,9 +149,9 @@ export const defaultDescription: INodeProperties[] = [
 		{
 			"displayName": "Country",
 			"name": "country",
-			"description": "The two character country code in ISO 3166-1 alpha-2 format",
 			"default": "GB",
 			"type": "string",
+			"description": "The two character country code in ISO 3166-1 alpha-2 format",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -286,7 +286,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -312,7 +312,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Secret",
+			"displayName": "API Secret",
 			"name": "security_apisecret",
 			"type": "string",
 			"default": "",
@@ -373,7 +373,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -399,7 +399,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Secret",
+			"displayName": "API Secret",
 			"name": "security_apisecret",
 			"type": "string",
 			"default": "",
@@ -460,7 +460,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -486,7 +486,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Secret",
+			"displayName": "API Secret",
 			"name": "security_apisecret",
 			"type": "string",
 			"default": "",
@@ -765,7 +765,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -791,7 +791,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Secret",
+			"displayName": "API Secret",
 			"name": "security_apisecret",
 			"type": "string",
 			"default": "",
@@ -852,7 +852,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -878,7 +878,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Secret",
+			"displayName": "API Secret",
 			"name": "security_apisecret",
 			"type": "string",
 			"default": "",

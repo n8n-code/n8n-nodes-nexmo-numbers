@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class NexmoNumbers implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'nexmo-numbers',
+		displayName: 'Nexmo Numbers',
 		name: 'N8nDevNexmoNumbers',
 		icon: { light: 'file:./nexmo-numbers.svg', dark: 'file:./nexmo-numbers.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Numbers API enables you to manage your existing numbers and buy new virtual numbers for use with the Vonage APIs. Further information is here:',
-		defaults: { name: 'nexmo-numbers' },
+		defaults: { name: 'Nexmo Numbers' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

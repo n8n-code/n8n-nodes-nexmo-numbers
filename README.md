@@ -53,9 +53,16 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Get list the numbers you own, Post buy a number, Post cancel a number, Get search available numbers, Post update a number |
+<details>
+<summary><b>Default</b> (5 operations)</summary>
+
+- Get List the numbers you own
+- Post Buy a number
+- Post Cancel a number
+- Get Search available numbers
+- Post Update a number
+
+</details>
 
 ---
 
